@@ -1,0 +1,11 @@
+# Run these commands after creating the GitHub repository in your GitHub account.
+git init
+git add .
+git commit -m "Add assignment report and project structure"
+git branch -M main
+git remote add origin https://github.com/YOUR-USERNAME/CSA09-YourRegisterNumber-Assignment1.git
+git push -u origin main
+
+For progressive task commits, make a separate commit as each task is completed, for example:
+git add Task01 && git commit -m "Complete Task 1 problem analysis"
+git add Task02 && git commit -m "Complete Task 2 data representation"

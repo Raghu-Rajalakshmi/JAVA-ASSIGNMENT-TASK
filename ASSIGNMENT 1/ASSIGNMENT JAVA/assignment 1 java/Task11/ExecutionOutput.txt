@@ -1,0 +1,22 @@
+Integrated application (Java 17):
+Allocated tickets: 5
+Two-wheeler fee (61 min): Rs 30.00
+Car monthly-pass fee (60 min): Rs 0.00
+EV fee incl. 10 kWh (61 min): Rs 210.00
+E-bike flat fee (1 min): Rs 15.00
+Delivery van fee (2 hours from 10:00): Rs 210.00
+Remaining occupancy: 0
+
+Task 3 completed program:
+[0, 0]
+[0, 1]
+[1, 0]
+null
+true false false
+[0, 1]
+
+Task 8 FeeDemo:
+TwoWheeler TN01A1 -> Rs 30.0
+Car TN02B2 -> Rs 90.0
+ElectricCar TN03C3 -> Rs 210.0
+true
