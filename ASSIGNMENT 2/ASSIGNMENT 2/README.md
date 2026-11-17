@@ -25,7 +25,6 @@ Expected fixed outputs:
 Benchmark timings depend on hardware/JVM. Run them yourself, save raw results in `results/`, and do not report fabricated numbers. Add genuine output screenshots to each Task folder. These are teaching microbenchmarks, not JMH-grade measurements.
 
 ## GitHub workflow
-Rename the folder to `CSA09-<RegisterNumber>-Assignment2`, replace student details, then:
 ```bash
 git init
 git add README.md Task01 && git commit -m "Complete Task 1"
@@ -36,6 +35,6 @@ git add Task05 && git commit -m "Complete Task 5"
 git add Task06 && git commit -m "Complete Task 6"
 git add Task07 results && git commit -m "Complete Task 7 redesign"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/CSA09-YOURREGISTERNUMBER-Assignment2.git
+git remote add origin https://github.com/Raghu-Rajalakshmi/CSA09-YOURREGISTERNUMBER-Assignment2.git
 git push -u origin main
 ```
