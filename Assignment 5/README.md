@@ -2,9 +2,9 @@
 
 **Course:** Programming in Java (CSA09)  
 **Assignment:** 5 – CO5, Data Persistence Engineering  
-**Student name:** YOUR NAME  
-**Register number:** YOUR REGISTER NUMBER  
-**Java:** JDK 17 or later
+**Student name:** Raghu-Rajalakshmi 
+**Register number:** 192524350
+**Java:** JDK 17 
 
 ## Repository structure
 
@@ -67,8 +67,8 @@ git add Task07-Adversarial-Inputs && git commit -m "Implement B2 adversarial log
 git add Task08-JDBC-Batch-Engineering && git commit -m "Implement B3 JDBC batch loader"
 git add Task09-Migration-and-Decision README.md && git commit -m "Complete B4 migration and engineering decision"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/CSA09-YOURREGISTERNUMBER-Assignment5.git
+git remote add origin https://github.com/Raghu-Rajalakshmi/CSA09-YOURREGISTERNUMBER-Assignment5.git
 git push -u origin main
 ```
 
-Replace placeholders with your details. Add one commit per task as required.
+
