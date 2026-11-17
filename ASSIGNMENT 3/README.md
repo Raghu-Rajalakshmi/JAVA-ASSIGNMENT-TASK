@@ -1,9 +1,9 @@
 # CSA09-YourRegisterNumber-Assignment3
 
-**Student name:** YOUR NAME  
-**Register number:** YOUR REGISTER NUMBER  
-**Partner name/register number:** ADD PARTNER DETAILS  
-**Java version:** Java 17 or later
+**Student name:** Raghu Rajalakshmi
+**Register number:** 192524350 
+**Partner name/register number:** no partner
+**Java version:** Java 17 
 
 This repository contains the Java source for all seven questions in Programming in Java – Assignment 3 (CO3).
 
@@ -43,7 +43,6 @@ javac Task07/ConcurrentResultProcessor.java && java -cp Task07 ConcurrentResultP
 5. For Q7, add the missing-file case using an expected-input manifest if you need to count files that do not exist.
 
 ## Progressive GitHub commits
-Rename this folder to `CSA09-<RegisterNumber>-Assignment3`, replace placeholders, then:
 ```bash
 git init
 git add README.md Task01 && git commit -m "Complete Q1 ATM exception handling"
@@ -54,8 +53,7 @@ git add Task05 && git commit -m "Complete Q5 synchronized seat booking"
 git add Task06 && git commit -m "Complete Q6 deadlock and producer consumer"
 git add Task07 && git commit -m "Complete Q7 concurrent result processor"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/CSA09-YOURREGISTERNUMBER-Assignment3.git
+git remote add origin https://github.com/Raghu-Rajalakshmi/JAVA-ASSIGNMENT-TASK.git
 git push -u origin main
 ```
 
-The assignment requires each student to execute every task in their own repository. Do not submit fabricated benchmark measurements or screenshots.
