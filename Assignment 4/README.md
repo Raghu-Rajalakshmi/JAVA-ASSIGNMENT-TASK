@@ -1,8 +1,8 @@
-# CSA09-YourRegisterNumber-Assignment4
+# CSA09-192524350-Assignment4
 
 **Course:** Programming in Java (CSA09)  
-**Student name:** YOUR NAME  
-**Register number:** YOUR REGISTER NUMBER  
+**Student name:** Raghu Rajalakshmi
+**Register number:** 192524350
 **Java version:** Java 17+  
 **Assignment:** CO4 – Event-Driven GUI Design
 
@@ -57,8 +57,7 @@ git add Task04 && git commit -m "Complete Q4 drawing pad event handling"
 git add Task05 && git commit -m "Complete Q5 event handling styles"
 git add Task06 && git commit -m "Complete Q6 event registration application"
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/CSA09-YOURREGISTERNUMBER-Assignment4.git
+git remote add origin https://github.com/Raghu-Rajalakshmi/JAVA-ASSIGNMENT-TASK.git
 git push -u origin main
 ```
 
-Do not claim screenshots, MySQL tests or performance measurements that you have not personally run. Each student must execute the tasks and progressively commit their work.
