@@ -1,8 +1,8 @@
 # CSA09-YourRegisterNumber-Assignment2
 
-Student name: YOUR NAME  
-Register number: YOUR REGISTER NUMBER  
-Java version: Java 17 or later
+Student name: Raghu Rajalakshmi  
+Register number: 192524350 
+Java version: Java 17 
 
 ## Task folders
 Task01 Strings benchmark; Task02 List/Deque benchmark; Task03 hashCode/equals; Task04 Map benchmark; Task05 generic leaderboard; Task06 PriorityQueue triage; Task07 redesign benchmark.
