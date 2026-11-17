@@ -1,0 +1,7 @@
+# B3 – Statement, PreparedStatement and batch
+
+`PassLoader.loadAll` completes all three TODOs: bind seven columns, batch every 1,000 rows, commit once, and roll back on SQL/runtime validation failure. It restores the original auto-commit setting. A half-way invalid amount throws before commit and rolls back the transaction.
+
+Run schema.sql, configure DB environment variables and Connector/J, then run `BusPassJdbcBenchmark`. It checks ResultSetMetaData and benchmarks 10, 1k, 10k and 100k rows for Statement, PreparedStatement and batched PreparedStatement. Save actual terminal output and repeat on the same machine/database. Compare auto-commit vs explicit transaction by running each mode and inject an invalid row midway; auto-commit may retain earlier rows, one transaction should retain none.
+
+For nightly 100k imports choose validated PreparedStatement batches in one transaction (or controlled chunk transactions if operational recovery policy allows). For one counter-issued pass, a single PreparedStatement insert is simpler and fast enough. Batch memory is O(b × row-size), where b is batch size (1,000); streaming the input avoids O(n) memory. A multi-row INSERT has O(n) SQL text/parameter payload if all rows are combined; MySQL LOAD DATA can be fastest for large trusted files but needs careful staging/validation. All approaches still process O(n) rows; actual constant factors/network round trips dominate.
