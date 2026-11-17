@@ -1,0 +1,1 @@
+ArrayList: append amortized O(1), indexed get O(1), middle/front insertion/removal O(n), iteration O(n). LinkedList: end operations O(1), indexed get O(n), iteration O(n). ArrayDeque: add/remove at both ends amortized O(1), no indexed access. A plain array requires manual shifting for insert/remove.

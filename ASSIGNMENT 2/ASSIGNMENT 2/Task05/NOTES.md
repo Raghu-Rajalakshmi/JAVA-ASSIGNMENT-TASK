@@ -1,0 +1,1 @@
+Comparator orders points descending, goal difference descending, and team name ascending. Bisons ranks above Panthers because both have 9 points and +4 goal difference, so alphabetical order breaks the tie. Sorting a copy preserves original insertion order.

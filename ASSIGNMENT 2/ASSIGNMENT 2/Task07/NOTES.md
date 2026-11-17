@@ -1,0 +1,1 @@
+Redesign replaces repeated immutable String concatenation with StringBuilder. Both receive identical input lists. Compare repeated averages on the same machine/JVM. This task demonstrates reduced copying and temporary objects; include actual measured output in the report.

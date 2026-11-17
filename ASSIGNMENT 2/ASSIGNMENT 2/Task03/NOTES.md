@@ -1,0 +1,1 @@
+HashSet uses hashCode to select a bucket, then equals to identify a match. Equal objects must have equal hash codes. Changing a hash-relevant field after insertion can make lookup/removal fail; use immutable identity fields. The broken class intentionally omits hashCode, so its observed duplicate count can vary.

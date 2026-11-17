@@ -1,0 +1,1 @@
+HashMap expected O(1) put/get and no ordering. TreeMap O(log n) put/get and sorted key iteration. LinkedHashMap expected O(1) put/get and insertion-order iteration. Hashtable is a legacy synchronized class; prefer modern Map implementations and explicit concurrency choices.

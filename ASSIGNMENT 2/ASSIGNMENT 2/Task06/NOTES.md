@@ -1,0 +1,1 @@
+PriorityQueue add/poll O(log n), peek O(1), space O(n). Lower severity number is more urgent; arrival counter breaks ties FIFO. Printing the queue directly does not promise sorted order; repeatedly poll a copy. Starvation can be reduced with waiting-time priority ageing.
