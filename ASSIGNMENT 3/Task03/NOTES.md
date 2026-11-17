@@ -1,0 +1,5 @@
+# Q3 – Resource safety and debugging
+
+`manual()` intentionally demonstrates the defect: a reader is closed only after its read loop succeeds. If reading/writing throws before `reader.close()`, the reader leaks. The writer is closed in `finally`, but the per-input readers are not protected. `safe()` uses nested try-with-resources; each resource closes even when an exception occurs, in reverse declaration order. If the body and close both throw, the close exception is recorded as a suppressed exception (`getSuppressed()`).
+
+For the requested failure experiment, make one input unreadable or replace a later input path with a missing file. Compare open-handle counts using OS tools or a debugger; exact counts are platform dependent. Both algorithms process F total input bytes in O(F) time and use O(1) application buffer space (excluding buffers and output). The safe version holds at most the writer plus one reader at a time. try-with-resources does not validate data, make writes atomic, or guarantee a complete report after disk-full failure; write to a temporary file and rename after successful completion when atomic publication is required.

@@ -1,0 +1,5 @@
+# Q4 – Thread creation and life cycle
+
+Both extending `Thread` and implementing `Runnable` are demonstrated. Prefer `Runnable` when the task should be separate from the thread object or the class already extends another class. `start()` asks the JVM to schedule a new thread; directly calling `run()` is an ordinary method call on the current thread. `join()` blocks the caller until the target finishes, so totals printed after all joins are safe.
+
+Typical states: NEW -> RUNNABLE -> (BLOCKED or WAITING or TIMED_WAITING) -> RUNNABLE -> TERMINATED. `sleep()` produces TIMED_WAITING; `join()` makes the joining thread WAITING. Scheduler order is nondeterministic; priority is only a hint and not a correctness guarantee. A daemon thread does not keep the JVM alive. For a pool, use `ExecutorService` with a fixed number of workers; for n equal independent jobs and p workers, idealized work time is about O(n/p) units, plus scheduling overhead. Each platform thread has stack overhead; a fixed pool bounds the number of threads.
