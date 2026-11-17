@@ -1,8 +1,8 @@
 # CSA09-YourRegisterNumber-Assignment1
 
-**Student name:** YOUR NAME  
-**Register number:** YOUR REGISTER NUMBER  
-**Java version:** Java 17 or later
+**Student name:** Raghu Rajalakshmi  
+**Register number:** 192524350  
+**Java version:** Java 17 
 
 ## Project structure
 - `Task01`–`Task12`: task evidence and task-specific programs
